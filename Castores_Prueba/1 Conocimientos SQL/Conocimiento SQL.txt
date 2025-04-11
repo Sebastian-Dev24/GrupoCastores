@@ -1,0 +1,28 @@
+1. CONOCIMIENTOS SQL
+ 1.1) Describe el funcionamiento general de la sentencia JOIN.
+	Las sentencias JOIN sirven para unir dos o más tablas basándose en una relación entre columnas. 
+	Se usa comúnmente cuando una tabla depende de otra (por ejemplo, empleados y departamentos),
+	y queremos ver los datos relacionados en una sola consulta o bien de una manera mas clara.
+
+ 1.2) ¿Cuáles son los tipos de JOIN y cuál es el funcionamiento de los mismos?
+	INNER JOIN: Devuelve solo las filas que tienen coincidencias en ambas tablas.
+
+	LEFT JOIN: Muestra todas las filas de la tabla izquierda y las coincidentes de la derecha.
+	Si no hay coincidencia, se muestran nulls.
+
+	RIGHT JOIN: Igual que el LEFT, pero al revés, muestra todas las de la derecha y solo las coincidentes de la izquierda.
+
+	FULL OUTER JOIN: Muestra todo de ambas tablas, coincida o no. Si no coincide, llena con nulls.
+
+	CROSS JOIN: Combina todas las filas de una tabla con todas las de la otra.
+
+ 1.3) ¿Cuál el funcionamiento general de los TRIGGER y qué propósito tienen?
+	Los TRIGGERS sirven para desencadenar acciones automáticas cuando ocurre un evento en una tabla (como INSERT, UPDATE o DELETE).
+	Por ejemplo, se pueden usar para que cuando un cliente sea eliminado, se guarde automáticamente en una tabla de clientes eliminados”
+	como respaldo o historial.
+
+ 1.4) ¿Qué es y para qué sirve un STORED PROCEDURE?
+	Un stored procedure es una especie de función predefinida que guarda una consulta o conjunto de instrucciones en la base de datos.
+	Permite ejecutar procesos complejos como inserciones, validaciones o cálculos con solo llamarlo por su nombre y pasarle parámetros.
+	Es muy útil porque ahorra tiempo, código y hace todo más ordenado y reutilizable.
+	
