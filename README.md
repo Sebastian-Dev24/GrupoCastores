@@ -126,7 +126,7 @@ COMMIT;
 
 2. **Configurar MySQL**:
    - Asegúrate de tener MySQL instalado y configurado. Puedes utilizar XAMPP o instalar MySQL directamente.
-   - Crea la base de datos `almacen_db` como se indica más arriba.
+   - Crea la base de datos `Castores_Prueba` como se indica más arriba.
 
 3. **Configurar la conexión de la base de datos**:
    Asegúrate de que las credenciales en el archivo `application.properties` coincidan con las de tu base de datos MySQL.
