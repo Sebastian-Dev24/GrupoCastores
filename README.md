@@ -27,9 +27,7 @@ La aplicación permite a los administradores gestionar productos en el inventari
 
 2. **Crear la base de datos**:  
    Debes crear una base de datos llamada `castores_prueba` en MySQL.
-   
-   ```sql
-   -- Crear base de datos
+
 CREATE DATABASE IF NOT EXISTS `castores_prueba`
   DEFAULT CHARACTER SET utf8mb4
   COLLATE utf8mb4_general_ci;
